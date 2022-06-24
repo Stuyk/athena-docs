@@ -28,43 +28,35 @@ git pull https://someurl.com/blah/blah
 
 ## Dependencies
 
-Install or perform all actions in this section.
+You will need to install, setup, or create accounts for all of the links that are in this section.
 
-### GIT
+*   [Download and Install GIT](https://git-scm.com/downloads)
 
-Grab the latest version of GIT from the official website.
+    * Used to pull down and push up code changes to your repositories.
 
-[Download GIT](https://git-scm.com/downloads)
 
-### NodeJS 16+
+*   [Download and Install NodeJS 18+](https://nodejs.org/en/download/current/)
 
-Grab the latest version of NodeJS from the official website.
+    * A runtime that runs JavaScript code.
 
-[Download NodeJS 17+](https://nodejs.org/en/download/)
 
-### MongoDB
+*   [Download and Install MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-Install MongoDB Community Server with all default settings.
+    * A NoSQL Database that is fast and easy.
 
-[Download MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-### Create a Github Account
+*   [Download and Install VSCode](https://code.visualstudio.com/download)
 
-Yes you are going to need a GitHub account. You are also going to need to setup an SSH key for your GitHub account. It is covered below.
+    * An integrated development environment for writing code and getting suggestions as you write code.
 
-[Sign Up with Github](https://github.com/signup)
 
-### VSCode\*
+*   [Create a GitHub Account](https://github.com/)
 
-VSCode is optional but recommended for editing, and modifying code.
+    * GitHub will let you privately store a modified version of the Athena codebase.
 
-[Download VSCode](https://code.visualstudio.com/download)
 
-### Windows Terminal
-
-This is a great tool for inputting commands like the ones you will see below. Highly recommended to install and pin it to your desktop somewhere.
-
-[Download Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab)
+* [Download Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us\&gl=US)
+  * Great for inputting commands like the ones you will see in this tutorial. Highly recommended to install and pin it to your desktop somewhere.
 
 ## Setup SSH Key
 
@@ -110,7 +102,23 @@ ssh-add ~/.ssh/id_ed25519
 
 It is highly recommended you follow the Github instructions for the rest of this tutorial. They cover / update how to add SSH keys very well.
 
-[Github Instructions for Adding SSH Key to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+Enter the following in a terminal:
+
+```
+cat ~/.ssh/id_ed25519.pub
+```
+
+**Copy** the text printed from `ssh-ed25519` all the way to your email.
+
+![id\_ed25519.pub key copy example](https://i.imgur.com/NPjcWhW.png)
+
+Navigate to your GitHub settings and the `SSH and GPG keys` section.
+
+Click on `New SSH Key`
+
+![Click New SSH Key to add it to your GitHub.](https://i.imgur.com/VyCobd5.png)
+
+Give the key a name, and paste the public key into the larger text box.
 
 ## Ensure MongoDB Running as a Service
 
