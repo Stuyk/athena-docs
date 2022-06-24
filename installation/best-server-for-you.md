@@ -4,7 +4,9 @@ description: Want to know what the best server is? Read about it here.
 
 # Best Server for You
 
-> There is **no best server option** if you cannot do basic system administration.
+{% hint style="info" %}
+There is **no best server option** if you cannot do basic system administration.
+{% endhint %}
 
 ## Server Deployment and Infrastructure
 
