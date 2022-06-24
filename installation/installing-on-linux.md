@@ -359,5 +359,5 @@ If you are running this on an external server you should connect to the server's
 
 A successful installation and bootup will look like the following:
 
-![](https://i.imgur.com/jGxBXLC.png)
+![](https://i.imgur.com/F05NiT6.png)
 
