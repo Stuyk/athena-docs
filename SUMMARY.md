@@ -7,18 +7,12 @@
 
 ## 📝 Info
 
-* [Best Server for You](info/best-server-for-you.md)
-* [Installing on Windows](info/installing-on-windows.md)
-* [Installing on Linux](info/installing-on-linux.md)
-* [Staying Up-to-Date](info/staying-up-to-date.md)
+* [Best Server for You](installation/best-server-for-you.md)
+* [Installing on Windows](installation/installing-on-windows.md)
+* [Installing on Linux](installation/installing-on-linux.md)
+* [Staying Up-to-Date](installation/staying-up-to-date.md)
 * [Using VSCode](info/using-vscode.md)
 * [Folder Structure](info/folder-structure.md)
-
-## 🧩 Plugins
-
-* [About Plugins](plugins/about-plugins.md)
-* [Loading Plugins](plugins/loading-plugins.md)
-* [Creating Plugins](plugins/creating-plugins.md)
 
 ## 🛠 Mods
 
@@ -29,10 +23,14 @@
 
 ## 🧰 Athena API
 
+* [About API](athena-api/about-api.md)
 * [API Reference](athena-api/api-reference/README.md)
   * [Placeholder](athena-api/api-reference/placeholder.md)
 
-## ⚙ Core Plugins
+## ⚙ Plugins
 
-* [Core Plugins Reference](core-plugins/core-plugins-reference/README.md)
-  * [Discord](core-plugins/core-plugins-reference/discord.md)
+* [About Plugins](plugins/about-plugins.md)
+* [Loading Plugins](plugins/loading-plugins.md)
+* [Creating Plugins](plugins/creating-plugins.md)
+* [Reference](plugins/reference/README.md)
+  * [Discord](plugins/reference/discord.md)
