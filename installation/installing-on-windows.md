@@ -1,5 +1,7 @@
 ---
 description: Installation steps for a Windows system.
+cover: ../.gitbook/assets/windows.jpg
+coverY: 63.436123348017624
 ---
 
 # Installing on Windows
@@ -60,13 +62,13 @@ You will need to install, setup, or create accounts for all of the links that ar
 
 ## Setup SSH Key
 
-Github has really good [SSH Setup Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) but they may not be entirely clear for newer developers. If you are comfortable with normal documentation give the above link a try. Make sure to select the `windows` tab.
+GitHub has really good [SSH Setup Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) but they may not be entirely clear for newer developers. If you are comfortable with normal documentation give the above link a try. Make sure to select the `windows` tab.
 
 ### Open Git Bash
 
 Git Bash is something that should come with GIT by default. Enter `Git Bash` in your windows search to open it.
 
-![](https://thumbs.gfycat.com/SeveralSleepyBarracuda-size\_restricted.gif)
+![Git Bash in Windows Search](https://i.imgur.com/T9Kx1el.png)
 
 ### Create the SSH Key
 
@@ -124,17 +126,11 @@ Give the key a name, and paste the public key into the larger text box.
 
 MongoDB does not have to be installed locally but if it is this is an important step. Open your Task Manager and ensure that you see MongoDB running as a service.
 
-![](https://i.imgur.com/2Osus8S.png)
+![You can check that MongoDB is running as a service by going into Task Manager > Services](https://i.imgur.com/mJ9FPxX.png)
 
 ## Port Forwarding
 
-At the very least you will need to open port 7788 for your main server if you are exposing it to the outside world. This means that if you want other users to join your server, you have to expose this port. Otherwise, you'll need to purchase a VPS or dedicated server. If you are doing this for development purposes then you do not need to port forward.
-
-You may need to Forward Ports in your Server Panel, Router, etc. If you are running Athena on a server it is likely you will need to add 7788 to an additional Firewall somewhere in your server providers panel.
-
-You will need to open the following ports in your **Windows Firewall** and **Router**.
-
-* 7788
+Port forwarding is **not required for local development**. If you need other players to join and test you must open port `7788`. If you are putting the server in production mode you must open `7788`.
 
 Here's a `.bat` script that will open both ports in your **Windows Firewall.**
 
@@ -158,84 +154,59 @@ _You can verify that ports have been opened successfully after you setup the res
 
 ## Setup Private Repo
 
+Create a **New** **Repository** on GitHub.
+
+{% tabs %}
+{% tab title="Step 1" %}
+Visit GitHub and ensure you are signed in.
+
+
+
+![](https://i.imgur.com/6wSCjfu.png)
+{% endtab %}
+
+{% tab title="Step 2" %}
+Use the following settings and hit **create**.
+
+![](https://i.imgur.com/CfZm096.png)
+
+![](https://i.imgur.com/nlsGGOM.png)
+{% endtab %}
+
+{% tab title="Step 3" %}
+Leave the page open and do not touch anything. You need to do some other things first.
+{% endtab %}
+{% endtabs %}
+
+### Clone into Private Repository
+
 Open a Windows Terminal such as command line or powershell. The author personally recommends [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab) from the Microsoft Store.
 
-Enter the following in a terminal:
+Enter the following command(s) in order.
 
-```bash
-git clone https://github.com/Stuyk/altv-athena --bare altv-athena-bare
+```
+git clone https://github.com/Stuyk/altv-athena
+cd altv-athena
 ```
 
-Create a new private repistory on Github. Let's call it altv-athena-private
+Once inside of the repository you need to setup a new remote URL. Copy the URL from the page you left open, and paste it where `url_for_other_repo_here` is in the command below.
 
-![](https://i.imgur.com/y1Lxqwn.png)
+![](https://i.imgur.com/SmI37H9.png)
 
-Copy your URL from github.
+After, running this command do the following command(s)
 
-![](https://i.imgur.com/Dd7Zrke.png)
-
-Enter the following in a terminal:
-
-```bash
-cd altv-athena-bare
 ```
-
-Then you are going to mirror the bare repository to your private mirror.
-
-Which means you will have a private copy of Athena's code base on your private GitHub.
-
-Enter the following in a terminal:
-
-```bash
-git push --mirror your_github_url_here
-```
-
-Delete the bare repository folder you have just created.
-
-### Set Private Repo Main Branch to Master
-
-This is important and **DO NOT SKIP THIS STEP**.&#x20;
-
-You will need to visit **your GitHub** and find the newly created repository in your `repositories` section on your profile. You will then click on it, and go to settings.
-
-![Your GitHub repository settings for a mirrored Athena repository.](https://i.imgur.com/FXae1k2.png)
-
-![Switching the main branch to master.](https://i.imgur.com/czfpchr.png)
-
-### Download from Private Repo
-
-Clone the new repository you created from Github.
-
-You can find the new repository you created in your Github profile's repository section.
-
-Enter the following in a terminal:
-
-```bash
-git clone the_url_from_your_private_github_repo
-```
-
-### Enter the Directory
-
-You need to navigate into the directory to run the next few commands.
-
-Enter the following in a terminal:
-
-```bash
-cd your_repo_name
-```
-
-### Add Upstream
-
-Add the upstream of the original Athena repository.
-
-This step must be done any time you need re-clone your repository.
-
-```bash
+git remote set-url --push origin url_for_other_repo_here
+git add *
+git commit -S -m "init"
+git push origin
 git remote add upstream https://github.com/Stuyk/altv-athena
 git remote set-url --push upstream DISABLE
 ```
 
-### Pushing updates
+If you refresh the GitHub page you should see a clone of Athena inside of your private repository if you were successful.
+
+## Pushing updates
 
 When you make changes to the code base you can push it by doing:
 
@@ -331,6 +302,6 @@ If you are running this on an external server you should connect to the server's
 
 ## Successful Installation
 
-A successful installation and bootup will look like the following:
+A successful installation and bootup will look like the following...
 
-![](https://i.imgur.com/F05NiT6.png)
+![](https://i.imgur.com/NuppQyc.png)
