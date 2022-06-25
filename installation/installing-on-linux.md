@@ -1,5 +1,7 @@
 ---
 description: Installing on Ubuntu 20.04+
+cover: ../.gitbook/assets/linux+athena.jpg
+coverY: 0
 ---
 
 # Installing on Linux
@@ -8,21 +10,9 @@ description: Installing on Ubuntu 20.04+
 
 Linux installation should be using Ubuntu 20.04+ or greater. The author of this documentation has used Ubuntu 20.04+ without any issues.
 
-### Read this First
-
-This happens all the time where people don't understand that `<` & `>` are placeholders for you to fill out the rest. Remove the `<` & `>` if you see it.
-
-**EXAMPLE**
-
-```
-git pull <your_url_here>
-```
-
-**REPLACEMENT**
-
-```
-git pull https://someurl.com/blah/bl
-```
+{% hint style="warning" %}
+As a general recommendation, you should only be using Linux for production. It is highly recommended to develop on Athena in a Windows environment as the build times are much faster.
+{% endhint %}
 
 ## Dependencies
 
@@ -134,11 +124,17 @@ Yes you are going to need a Github account. You are also going to need to setup 
 
 ## Setup SSH Key
 
-Github has really good [SSH Setup Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) but they may not be entirely clear for newer developers. If you are comfortable with normal documentation give the above link a try. Make sure to select the `windows` tab.
+GitHub has really good [SSH Setup Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) but they may not be entirely clear for newer developers. If you are comfortable with normal documentation give the above link a try. Make sure to select the Linux tab.
 
-### Create the SSH Key
+### Open a Terminal
 
-Enter the following in a terminal:
+Git Bash is something that should come with GIT by default. Enter `Git Bash` in your windows search to open it.
+
+{% tabs %}
+{% tab title="Step 1" %}
+**Generate a New SSH Key**\
+\
+Enter the following in a Terminal.
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -146,31 +142,63 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
 
-It may ask you for a password. Hitting enter twice will automatically default to `no password`.
+It may ask you for a password.&#x20;
 
-### Start ssh-agent
+Hitting enter twice will automatically default to `no password`.
+{% endtab %}
 
-Enter the following in a terminal:
+{% tab title="Step 2" %}
+**Start the SSH Agent**
+
+\
+Enter the following in a Terminal.
 
 ```
 eval "$(ssh-agent -s)"
 ```
 
+__
+
 _It should respond with 'Agent pid XYZ'_
+{% endtab %}
 
-### Add the SSH Key
+{% tab title="Step 3" %}
+**Add the SSH Key to the SSH Agent**
 
-Enter the following in a terminal:
+\
+Enter the following in a Terminal:
 
 ```
 ssh-add ~/.ssh/id_ed25519
 ```
+{% endtab %}
 
-### Add the SSH Key to Github
+{% tab title="Step 4" %}
+**Add the SSH Key to GitHub**
 
-It is highly recommended you follow the Github instructions for the rest of this tutorial. They cover / update how to add SSH keys very well.
+Enter the following in a Terminal:
 
-[Github Instructions for Adding SSH Key to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+```
+cat ~/.ssh/id_ed25519.pub
+```
+
+
+
+**Copy** the text printed from `ssh-ed25519` all the way to your email.
+
+
+
+![25519.pub key copy example](https://i.imgur.com/NPjcWhW.png)
+
+Navigate to your GitHub settings and the `SSH and GPG keys` section.
+
+Click on `New SSH Key`
+
+![Click New SSH Key to add it to your GitHub.](https://i.imgur.com/VyCobd5.png)
+
+Give the key a name, and **paste the public key into the larger text box**.
+{% endtab %}
+{% endtabs %}
 
 ## Port Forwarding
 
@@ -204,80 +232,57 @@ _You can verify that ports have been opened successfully after you setup the res
 
 ## Setup Private Repo
 
-Open a Windows Terminal such as command line or powershell. The author personally recommends [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701#activetab=pivot:overviewtab) from the Microsoft Store.
+Create a **New** **Repository** on GitHub.
 
-Enter the following in a terminal:
+{% tabs %}
+{% tab title="Step 1" %}
+Visit GitHub and ensure you are signed in.
 
-```bash
-git clone https://github.com/Stuyk/altv-athena --bare altv-athena-bare
+
+
+![](https://i.imgur.com/6wSCjfu.png)
+{% endtab %}
+
+{% tab title="Step 2" %}
+Use the following settings and hit **create**.
+
+![](https://i.imgur.com/CfZm096.png)
+
+![](https://i.imgur.com/nlsGGOM.png)
+{% endtab %}
+
+{% tab title="Step 3" %}
+Leave the page open and do not touch anything. You need to do some other things first.
+{% endtab %}
+{% endtabs %}
+
+### Clone into Private Repository
+
+Open a Terminal.
+
+Enter the following command(s) in order.
+
+```
+git clone https://github.com/Stuyk/altv-athena
+cd altv-athena
 ```
 
-Create a new private repistory on Github. Let's call it altv-athena-private
+Once inside of the repository you need to setup a new remote URL. Copy the URL from the page you left open, and paste it where `url_for_other_repo_here` is in the command below.
 
-![](https://i.imgur.com/y1Lxqwn.png)
+![](https://i.imgur.com/SmI37H9.png)
 
-Copy your URL from github.
+After, running this command do the following command(s)
 
-![](https://i.imgur.com/Dd7Zrke.png)
-
-Enter the following in a terminal:
-
-```bash
-cd altv-athena-bare
 ```
-
-Then you are going to mirror the bare repository to your private mirror.
-
-Which means you will have a private copy of Athena's code base on your private github.
-
-Enter the following in a terminal:
-
-```bash
-git push --mirror <your_github_url_here>
-```
-
-Delete the bare repository folder you have just created.
-
-### Set Private Repo Main Branch to Master
-
-This is important and **DO NOT SKIP THIS STEP**.
-
-![](https://i.imgur.com/FXae1k2.png)
-
-![](https://i.imgur.com/czfpchr.png)
-
-### Download from Private Repo
-
-Clone the new repository you created from Github.
-
-You can find the new repository you created in your Github profile's repository section.
-
-Enter the following in a terminal:
-
-```bash
-git clone the_url_from_your_private_github_repo
-```
-
-### Enter the Directory
-
-You need to navigate into the directory to run the next few commands.
-
-Enter the following in a terminal:
-
-```bash
-cd your_repo_name
-```
-
-### Add Upstream
-
-Add the upstream of the original athena repository.
-
-This step must be done any time you need re-clone your repository.
-
-```bash
+git remote set-url --push origin url_for_other_repo_here
+git add *
+git commit -S -m "init"
+git push origin
 git remote add upstream https://github.com/Stuyk/altv-athena
 git remote set-url --push upstream DISABLE
 ```
+
+If you refresh the GitHub page you should see a clone of Athena inside of your private repository if you were successful.
 
 ### Pushing updates
 
@@ -359,5 +364,5 @@ If you are running this on an external server you should connect to the server's
 
 A successful installation and bootup will look like the following:
 
-![](https://i.imgur.com/F05NiT6.png)
+![](https://i.imgur.com/NuppQyc.png)
 
