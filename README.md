@@ -28,7 +28,7 @@ It is entirely written in TypeScript from front-to-back and you only need to kno
 
 That being said, Athena is built by industry developers and built for industry developers. If you choose to use Athena you also learn industry skills just by simply playing around with it.
 
-### Fast Deployment
+### Full Installation
 
 It is recommended to do a full install but quick instructions are provided below.
 
@@ -39,6 +39,8 @@ It is recommended to do a full install but quick instructions are provided below
 {% content-ref url="installation/installing-on-linux.md" %}
 [installing-on-linux.md](installation/installing-on-linux.md)
 {% endcontent-ref %}
+
+### Fast Installation
 
 If you wish to use Athena but not make any changes to the core (unlikely you won't make changes) here are some simple instructions for the every day developer who just wants to test this with the alt:V Client quickly.
 
