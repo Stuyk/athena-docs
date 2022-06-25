@@ -12,22 +12,6 @@ Installing on windows is very straight forward but you will need to do a handful
 
 Read them carefully, read them twice, and double check your steps.
 
-### Read this First
-
-This happens all the time where people don't understand that `<` & `>` are placeholders for you to fill out the rest. Remove the `<` & `>` if you see it.
-
-**EXAMPLE**
-
-```
-git pull <your_url_here>
-```
-
-**REPLACEMENT**
-
-```
-git pull https://someurl.com/blah/blah
-```
-
 ## Dependencies
 
 You will need to install, setup, or create accounts for all of the links that are in this section.
@@ -70,9 +54,11 @@ Git Bash is something that should come with GIT by default. Enter `Git Bash` in 
 
 ![Git Bash in Windows Search](https://i.imgur.com/T9Kx1el.png)
 
-### Create the SSH Key
-
-Enter the following in a terminal:
+{% tabs %}
+{% tab title="Step 1" %}
+**Generate a New SSH Key**\
+\
+Enter the following in a Git Bash
 
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -80,39 +66,53 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
 
-It may ask you for a password. Hitting enter twice will automatically default to `no password`.
+It may ask you for a password.&#x20;
 
-### Start ssh-agent
+Hitting enter twice will automatically default to `no password`.
+{% endtab %}
 
-Enter the following in a terminal:
+{% tab title="Step 2" %}
+**Start the SSH Agent**
+
+\
+Enter the following in Git Bash.
 
 ```
 eval "$(ssh-agent -s)"
 ```
 
+__
+
 _It should respond with 'Agent pid XYZ'_
+{% endtab %}
 
-### Add the SSH Key
+{% tab title="Step 3" %}
+**Add the SSH Key to the SSH Agent**
 
-Enter the following in a terminal:
+\
+Enter the following in Git Bash:
 
 ```
 ssh-add ~/.ssh/id_ed25519
 ```
+{% endtab %}
 
-### Add the SSH Key to Github
+{% tab title="Step 4" %}
+**Add the SSH Key to GitHub**
 
-It is highly recommended you follow the Github instructions for the rest of this tutorial. They cover / update how to add SSH keys very well.
-
-Enter the following in a terminal:
+Enter the following in a Git Bash:
 
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
 
+
+
 **Copy** the text printed from `ssh-ed25519` all the way to your email.
 
-![id\_ed25519.pub key copy example](https://i.imgur.com/NPjcWhW.png)
+
+
+![25519.pub key copy example](https://i.imgur.com/NPjcWhW.png)
 
 Navigate to your GitHub settings and the `SSH and GPG keys` section.
 
@@ -120,7 +120,9 @@ Click on `New SSH Key`
 
 ![Click New SSH Key to add it to your GitHub.](https://i.imgur.com/VyCobd5.png)
 
-Give the key a name, and paste the public key into the larger text box.
+Give the key a name, and **paste the public key into the larger text box**.
+{% endtab %}
+{% endtabs %}
 
 ## Ensure MongoDB Running as a Service
 
