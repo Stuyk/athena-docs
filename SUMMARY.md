@@ -41,4 +41,6 @@
   * [Character Creator](plugins/reference/character-creator.md)
   * [Character Select](plugins/reference/character-select.md)
   * [Clothing](plugins/reference/clothing.md)
+  * [Commands](plugins/reference/commands/README.md)
+    * [Admin Commands](plugins/reference/commands/admin-commands.md)
   * [Discord](plugins/reference/discord.md)
