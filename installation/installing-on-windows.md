@@ -1,6 +1,6 @@
 ---
 description: Installation steps for a Windows system.
-cover: ../.gitbook/assets/windows+athena (1).jpg
+cover: ../.gitbook/assets/windows+athena.jpg
 coverY: 0
 ---
 
