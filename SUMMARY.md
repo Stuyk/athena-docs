@@ -1,7 +1,6 @@
 # Table of contents
 
 * [👋 Introduction](README.md)
-* [⚠ Before You Begin](before-you-begin.md)
 
 ## 🔗 Links
 
