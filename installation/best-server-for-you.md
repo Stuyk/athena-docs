@@ -1,5 +1,7 @@
 ---
 description: Want to know what the best server is? Read about it here.
+cover: ../.gitbook/assets/server-room.jpg
+coverY: 0
 ---
 
 # Best Server for You
