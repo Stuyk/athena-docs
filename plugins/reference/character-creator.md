@@ -26,7 +26,7 @@ It also includes a standard interface to go with it.
 
 The configuration can be found in the following folder:
 
-📁 `src/core/plugins/core-character-creator/server/config.ts`
+📁 `src/core/plugins/core-character-creator/shared/config.ts`
 
 * CHARACTER\_CREATOR\_POS
   * A world position where the player should be standing.
