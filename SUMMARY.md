@@ -40,4 +40,5 @@
   * [Atm](plugins/reference/atm.md)
   * [Character Creator](plugins/reference/character-creator.md)
   * [Character Select](plugins/reference/character-select.md)
+  * [Clothing](plugins/reference/clothing.md)
   * [Discord](plugins/reference/discord.md)
