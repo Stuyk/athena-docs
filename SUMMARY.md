@@ -37,4 +37,6 @@
 * [Loading Plugins](plugins/loading-plugins.md)
 * [Creating Plugins](plugins/creating-plugins.md)
 * [Reference](plugins/reference/README.md)
+  * [Atm](plugins/reference/atm.md)
+  * [Character Creator](plugins/reference/character-creator.md)
   * [Discord](plugins/reference/discord.md)
