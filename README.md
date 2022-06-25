@@ -92,16 +92,16 @@ Windows will be the **best environment for raw development**. You will have the 
 
 {% tabs %}
 {% tab title="Windows" %}
-{% content-ref url="installation/best-server-for-you.md" %}
-[best-server-for-you.md](installation/best-server-for-you.md)
+{% content-ref url="info/best-server-for-you.md" %}
+[best-server-for-you.md](info/best-server-for-you.md)
 {% endcontent-ref %}
 
-{% content-ref url="installation/installing-on-windows.md" %}
-[installing-on-windows.md](installation/installing-on-windows.md)
+{% content-ref url="info/installing-on-windows.md" %}
+[installing-on-windows.md](info/installing-on-windows.md)
 {% endcontent-ref %}
 
-{% content-ref url="installation/staying-up-to-date.md" %}
-[staying-up-to-date.md](installation/staying-up-to-date.md)
+{% content-ref url="info/staying-up-to-date.md" %}
+[staying-up-to-date.md](info/staying-up-to-date.md)
 {% endcontent-ref %}
 
 {% content-ref url="info/using-vscode.md" %}
@@ -126,16 +126,16 @@ Windows will be the **best environment for raw development**. You will have the 
 {% endtab %}
 
 {% tab title="Linux" %}
-{% content-ref url="installation/best-server-for-you.md" %}
-[best-server-for-you.md](installation/best-server-for-you.md)
+{% content-ref url="info/best-server-for-you.md" %}
+[best-server-for-you.md](info/best-server-for-you.md)
 {% endcontent-ref %}
 
-{% content-ref url="installation/installing-on-linux.md" %}
-[installing-on-linux.md](installation/installing-on-linux.md)
+{% content-ref url="info/installing-on-linux.md" %}
+[installing-on-linux.md](info/installing-on-linux.md)
 {% endcontent-ref %}
 
-{% content-ref url="installation/staying-up-to-date.md" %}
-[staying-up-to-date.md](installation/staying-up-to-date.md)
+{% content-ref url="info/staying-up-to-date.md" %}
+[staying-up-to-date.md](info/staying-up-to-date.md)
 {% endcontent-ref %}
 
 {% content-ref url="plugins/about-plugins.md" %}
