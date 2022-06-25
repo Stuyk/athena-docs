@@ -2,8 +2,13 @@
 
 * [👋 Introduction](README.md)
 * [⚠ Before You Begin](before-you-begin.md)
-* [💬 Discord](https://ares.stuyk.com/v1/get/discord)
-* [💰 Patreon](https://patreon.com/stuyk/)
+
+## 🔗 Links
+
+* [Discord](https://ares.stuyk.com/v1/get/discord)
+* [Patreon](https://patreon.com/stuyk/)
+* [GitHub](https://github.com/stuyk/altv-athena)
+* [Issues](https://github.com/stuyk/altv-athena-issues)
 
 ## 📝 Info
 
