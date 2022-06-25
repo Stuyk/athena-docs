@@ -1,5 +1,5 @@
 ---
-description: ATM Machine Plugin
+description: ATM Plugin (Basic Banking Plugin)
 ---
 
 # Atm
