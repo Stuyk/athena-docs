@@ -4,6 +4,10 @@ description: Athena's Default Commands
 
 # Commands
 
+{% hint style="warning" %}
+This is not all commands in this section. All plugins have their own commands section.
+{% endhint %}
+
 ### Abstract
 
 The command plugin was created to provide basic commands for development, administration, and general utilities. Most commands are set to `PERMISSIONS.ADMIN` which is the highest admin level.
