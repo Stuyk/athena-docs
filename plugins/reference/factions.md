@@ -46,7 +46,7 @@ Data may not be reflected correctly as it is a preview and does not reflect prod
 {% endtab %}
 {% endtabs %}
 
-Features:
+**Features**
 
 * Invite to Faction
 * Member Management
@@ -163,3 +163,100 @@ An admin may overwrite faction ownership by joinig a faction and performing `/fs
 
 ### Commands
 
+#### fcreate
+
+This command can be used to create a faction as an Admin.
+
+Requires the admin to not be in a faction already.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/fcreate [faction_name]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```
+/fcreate Vilachi Crime Family
+```
+{% endtab %}
+{% endtabs %}
+
+#### fopen
+
+Opens a faction panel if the player is in a faction.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/fopen
+```
+{% endtab %}
+{% endtabs %}
+
+#### fjoin
+
+Forces the admin to quit their current faction and join a new faction by uid.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/fjoin [uid]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```
+/fjoin 626334499dba0683985d65ea
+```
+{% endtab %}
+{% endtabs %}
+
+#### finvite
+
+Invite a player to your faction if you have invite permissions.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/finvite [id_or_first_las]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```
+/finvite 5
+```
+{% endtab %}
+{% endtabs %}
+
+#### faccept
+
+Accept last invite.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/faccept
+```
+{% endtab %}
+{% endtabs %}
+
+#### fsetowner
+
+As an admin override the current owner of the faction to another player in-game in the faction.
+
+{% tabs %}
+{% tab title="Usage" %}
+```
+/fsetowner [id]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```
+/fsetowner 5
+```
+{% endtab %}
+{% endtabs %}
