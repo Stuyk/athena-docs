@@ -59,13 +59,13 @@ Go to a specific location based on coordinates.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/coords [x] [y] [z]
+/goto [x] [y] [z]
 ```
 {% endtab %}
 
 {% tab title="Example" %}
 ```
-/coords 173.2903 -1003.6 -99.65707
+/goto 173.2903 -1003.6 -99.65707
 ```
 {% endtab %}
 {% endtabs %}
