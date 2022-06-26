@@ -64,4 +64,5 @@
   * [Cuffs](plugins/reference/cuffs.md)
   * [Dealership](plugins/reference/dealership.md)
   * [Death](plugins/reference/death.md)
+  * [Factions](plugins/reference/factions.md)
   * [Discord](plugins/reference/discord.md)
