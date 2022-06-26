@@ -61,4 +61,6 @@
       * [Vehicle](plugins/reference/commands/player/vehicle.md)
     * [Client Commands](plugins/reference/commands/client-commands.md)
     * [Server Commands](plugins/reference/commands/server-commands.md)
+  * [Cuffs](plugins/reference/cuffs.md)
+  * [Dealership](plugins/reference/dealership.md)
   * [Discord](plugins/reference/discord.md)
