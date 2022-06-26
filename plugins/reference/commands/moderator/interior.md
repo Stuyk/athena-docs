@@ -13,7 +13,7 @@ Set a target player's dimension.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/setdimension [id] [dimension]
+/setdimension [player_id] [dimension]
 ```
 {% endtab %}
 
@@ -31,7 +31,7 @@ Set a target player's interior ipl by string name.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/setinterior [id] [ipl_name]
+/setinterior [player_id] [ipl_name]
 ```
 {% endtab %}
 

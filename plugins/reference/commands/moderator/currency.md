@@ -13,7 +13,7 @@ If no ID is specific it will set your own cash stack.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/setcash [amount] [id]
+/setcash [amount] [player_id]
 ```
 {% endtab %}
 
@@ -33,7 +33,7 @@ If no ID is specific it will set your own cash stack.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/addbank [amount] [id]
+/addbank [amount] [player_id]
 ```
 {% endtab %}
 
@@ -53,7 +53,7 @@ If no ID is specific it will set your own cash stack.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/addcash [amount] [id]
+/addcash [amount] [player_id]
 ```
 {% endtab %}
 

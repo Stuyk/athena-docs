@@ -29,7 +29,7 @@ Sends an administrative private message to a player.
 {% tabs %}
 {% tab title="Usage" %}
 ```
-/apm [id] [long_message_here]
+/apm [player_id] [long_message_here]
 ```
 {% endtab %}
 

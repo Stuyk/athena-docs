@@ -47,5 +47,8 @@
       * [Currency](plugins/reference/commands/moderator/currency.md)
       * [Garage](plugins/reference/commands/moderator/garage.md)
       * [Interior](plugins/reference/commands/moderator/interior.md)
+      * [Inventory](plugins/reference/commands/moderator/inventory.md)
+      * [NoClip](plugins/reference/commands/moderator/noclip.md)
+      * [Player](plugins/reference/commands/moderator/player.md)
     * [Admin Commands](plugins/reference/commands/admin-commands.md)
   * [Discord](plugins/reference/discord.md)
