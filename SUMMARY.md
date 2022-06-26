@@ -70,4 +70,5 @@
       * [WebView Injections](plugins/reference/factions/config/webview-injections.md)
       * [Purchasable Vehicles](plugins/reference/factions/config/purchasable-vehicles.md)
   * [Factions Paychecks](plugins/reference/factions-paychecks.md)
+  * [Fuel](plugins/reference/fuel.md)
   * [Discord](plugins/reference/discord.md)
