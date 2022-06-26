@@ -14,8 +14,6 @@ When a player claims a paycheck it takes money from the faction bank balance.
 
 You can read more about [that here](factions/config/webview-injections.md).
 
-📁 `src/core/plugins/core-factions-paychecks/`
-
 ![](https://i.imgur.com/D0vBfDZ.png)
 
 ### Configuration

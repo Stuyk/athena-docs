@@ -71,4 +71,5 @@
       * [Purchasable Vehicles](plugins/reference/factions/config/purchasable-vehicles.md)
   * [Factions Paychecks](plugins/reference/factions-paychecks.md)
   * [Fuel](plugins/reference/fuel.md)
+  * [Fuel Station](plugins/reference/fuel-station.md)
   * [Discord](plugins/reference/discord.md)
