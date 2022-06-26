@@ -8,6 +8,12 @@ description: Athena's Character Select Plugin
 
 The character select plugin allows you to select existing characters, specify a single character configuration, and determine the flow before your player joins the server.
 
+{% hint style="warning" %}
+Character Select has an Agenda Index of 99.&#x20;
+
+Meaning it should always be the **last step** in the player login flow.
+{% endhint %}
+
 📁 `src/core/plugins/core-character-select/`
 
 It allows the player to do the following:
