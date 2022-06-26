@@ -63,4 +63,5 @@
     * [Server Commands](plugins/reference/commands/server-commands.md)
   * [Cuffs](plugins/reference/cuffs.md)
   * [Dealership](plugins/reference/dealership.md)
+  * [Death](plugins/reference/death.md)
   * [Discord](plugins/reference/discord.md)
