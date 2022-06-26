@@ -59,5 +59,6 @@
       * [Chat](plugins/reference/commands/player/chat.md)
       * [Job](plugins/reference/commands/player/job.md)
       * [Vehicle](plugins/reference/commands/player/vehicle.md)
+    * [Client Commands](plugins/reference/commands/client-commands.md)
     * [Server Commands](plugins/reference/commands/server-commands.md)
   * [Discord](plugins/reference/discord.md)
