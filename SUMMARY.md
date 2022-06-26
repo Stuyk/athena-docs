@@ -72,4 +72,5 @@
   * [Factions Paychecks](plugins/reference/factions-paychecks.md)
   * [Fuel](plugins/reference/fuel.md)
   * [Fuel Station](plugins/reference/fuel-station.md)
+  * [Garage](plugins/reference/garage.md)
   * [Discord](plugins/reference/discord.md)
