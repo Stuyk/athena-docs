@@ -57,4 +57,6 @@
       * [Weapon](plugins/reference/commands/moderator/weapon.md)
     * [Player](plugins/reference/commands/player/README.md)
       * [Chat](plugins/reference/commands/player/chat.md)
+      * [Job](plugins/reference/commands/player/job.md)
+      * [Vehicle](plugins/reference/commands/player/vehicle.md)
   * [Discord](plugins/reference/discord.md)
