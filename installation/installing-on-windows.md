@@ -12,12 +12,6 @@ Installing on windows is very straight forward but you will need to do a handful
 
 Read them carefully, read them twice, and double check your steps.
 
-{% hint style="danger" %}
-()\[]{}|:;'<>?,!@#$%^&\*+=\
-\
-These cannot be used in your folder pathing. Do **NOT** use them.
-{% endhint %}
-
 ## Dependencies
 
 You will need to install, setup, or create accounts for all of the links that are in this section.

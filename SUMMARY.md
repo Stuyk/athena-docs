@@ -54,4 +54,7 @@
       * [Testing](plugins/reference/commands/moderator/testing.md)
       * [Vehicle](plugins/reference/commands/moderator/vehicle.md)
       * [Wanted](plugins/reference/commands/moderator/wanted.md)
+      * [Weapon](plugins/reference/commands/moderator/weapon.md)
+    * [Player](plugins/reference/commands/player/README.md)
+      * [Chat](plugins/reference/commands/player/chat.md)
   * [Discord](plugins/reference/discord.md)
