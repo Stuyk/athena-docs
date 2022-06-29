@@ -1,14 +1,11 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Documentation](documentation.md)
+* [Documentation](<README (1).md>)
 
-## 🔗 Links
+## 🔗 Partners
 
-* [Discord](https://ares.stuyk.com/v1/get/discord)
-* [Patreon](https://patreon.com/stuyk/)
-* [GitHub](https://github.com/stuyk/altv-athena)
-* [Issues](https://github.com/stuyk/altv-athena-issues)
+* [GTA:V Data Browser](https://forge.plebmasters.de/)
 
 ## 📝 Info
 
