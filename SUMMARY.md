@@ -2,6 +2,7 @@
 
 * [👋 Welcome!](README.md)
 * [💪 Getting Started](<README (1).md>)
+* [💀 Old Documentation](https://stuykgaming.gitbook.io/old/)
 
 ## 🔗 Partners
 
