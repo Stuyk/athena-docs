@@ -1,6 +1,7 @@
 # Table of contents
 
 * [👋 Welcome!](README.md)
+* [📷 Previews](previews.md)
 * [💪 Getting Started](<README (1).md>)
 * [💀 Old Documentation](https://stuykgaming.gitbook.io/old/)
 
