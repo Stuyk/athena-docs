@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Documentation](<README (1).md>)
+* [Landing](README.md)
+* [Documentation](README.md)
 
 ## 🔗 Partners
 
