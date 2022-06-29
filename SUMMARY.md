@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Landing](README.md)
-* [Documentation](README.md)
+* [Getting Started](getting-started.md)
 
 ## 🔗 Partners
 
