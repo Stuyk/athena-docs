@@ -1,10 +1,11 @@
 # Table of contents
 
 * [👋 Welcome!](README.md)
-* [💪 Getting Started](<README (1).md>)
+* [💪 Getting Started](README.md)
 
 ## 🔗 Partners
 
+* [alt:V Multiplayer](https://altv.mp/)
 * [GTA:V Data Browser](https://forge.plebmasters.de/)
 
 ## 📝 Info
