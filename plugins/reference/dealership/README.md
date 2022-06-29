@@ -29,7 +29,7 @@ The default vehicles for purchase can be found in the following folder:
 
 A dealership can be appended to the default dealerships by creating a new entry.
 
-```
+```typescript
 {
         uid: 'muscle-1',
         name: 'Muscle Cars',
@@ -40,16 +40,32 @@ A dealership can be appended to the default dealerships by creating a new entry.
  }
 ```
 
+* uid
+  * A unique identifier for this dealership
+* name
+  * The blip / physical name of this dealership
+* vehiclePosition
+  * Where the blip position should be.
+* cam
+  * Where the camera should be.
+* pos
+  * Where the camera should point.
+* vehicles
+  * An **Array** of **VehicleInfo**
+  * See `src/core/shared/information/vehicles.ts` for more information.
+
 {% hint style="info" %}
 Vehicles property is a property that filters all vehicles by class, and if they can be sold. This filter can be adjusted to customize the vehicles in a dealership.
 {% endhint %}
 
 ### Usage
 
-Placeholder
+A player can visit a physical dealership and interact with `E`. It will bring up a menu. The player can preview different vehicles, select them, and then color them before purchasing them.
 
+The dealership automatically takes a combination of cash and bank.
 
+Cash is always removed first.
 
 ### Commands
 
-Placeholder
+No Commands Available

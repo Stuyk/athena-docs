@@ -10,6 +10,12 @@ coverY: 0
 
 Linux installation should be using Ubuntu 20.04+ or greater. The author of this documentation has used Ubuntu 20.04+ without any issues.
 
+{% hint style="danger" %}
+()\[]{}|:;'<>?,!@#$%^&\*+=\
+\
+These cannot be used in your folder pathing. Do **NOT** use them.
+{% endhint %}
+
 {% hint style="warning" %}
 As a general recommendation, you should only be using Linux for production. It is highly recommended to develop on Athena in a Windows environment as the build times are much faster.
 {% endhint %}

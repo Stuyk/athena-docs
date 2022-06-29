@@ -43,11 +43,36 @@ The configuration can be found in the following folder:
 * DLC\_PROPS
   * Same as above. Check the `Adding Clothes` section for mods.
 
-{% content-ref url="../../mods/adding-clothes.md" %}
-[adding-clothes.md](../../mods/adding-clothes.md)
+{% content-ref url="../../../mods/adding-clothes.md" %}
+[adding-clothes.md](../../../mods/adding-clothes.md)
 {% endcontent-ref %}
 
 _The camera is created based on the player's position and heading._
+
+#### Adding Additional Stores
+
+📁 `src/core/plugins/core-clothing/server/src/stores.ts`
+
+Each store has their own position for interaction and the area surrounding the store. Think of it like the interior of the store.
+
+```
+{
+        x: 11.6,
+        y: 6514.2,
+        z: 30.9,
+        isBlip: true,
+        vertices: [
+            { x: 6.239919185638428, y: 6522.4970703125, z: 30.883445739746094 },
+            { x: 14.063220024108887, y: 6513.44287109375, z: 30.884214401245117 },
+            { x: 10.18830680847168, y: 6509.97119140625, z: 30.877857208251953 },
+            { x: 8.208184242248535, y: 6511.96484375, z: 30.877857208251953 },
+            { x: 3.685032606124878, y: 6508.46630859375, z: 30.883928298950195 },
+            { x: -2.3365304470062256, y: 6514.94384765625, z: 30.877857208251953 },
+        ],
+    }
+```
+
+If `isBlip` is set to `true` it'll generate a blip for the clothing store.
 
 ### Usage
 

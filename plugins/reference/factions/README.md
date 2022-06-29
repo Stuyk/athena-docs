@@ -8,6 +8,8 @@ description: The Factions Plugin
 
 The faction system is a grouping system for admins to help player's group people together. It can be used for gangs, factions, businesses, etc. The current iteration of Factions **does not** have any built-in factions. You will have to create them yourself.
 
+📁 `src/core/plugins/core-factions/`
+
 There is already built-in group management, rank management, bank management, etc.
 
 {% hint style="warning" %}

@@ -45,7 +45,7 @@ Parking is an array of positions and rotations that should be used to park vehic
 }
 ```
 
-There are commands for making parking lists easier. Check [out this link](commands/moderator/garage.md).
+There are commands for making parking lists easier. Check [out this link](../commands/moderator/garage.md).
 
 ### Usage
 
