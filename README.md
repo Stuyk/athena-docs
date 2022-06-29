@@ -4,6 +4,10 @@ description: What is the Athena Roleplay Framework for GTA:V
 
 # 👋 Welcome!
 
+{% hint style="danger" %}
+Old Documentation still has way more information. Click the link in the sidebar for info.
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=k4d51-BjkZ0" %}
 \
 A pre-cursor to understand what the Athena Framework has to offer.
