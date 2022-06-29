@@ -2,7 +2,7 @@
 description: How to start working with the Athena Roleplay Framework.
 ---
 
-# Getting Started
+# 💪 Getting Started
 
 ### Full Installation
 

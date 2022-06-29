@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Landing](README.md)
-* [Getting Started](getting-started.md)
+* [👋 Welcome!](README.md)
+* [💪 Getting Started](<README (1).md>)
 
 ## 🔗 Partners
 
