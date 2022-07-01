@@ -206,7 +206,7 @@ After, running this command do the following command(s)
 ```
 git remote set-url --push origin url_for_other_repo_here
 git add *
-git commit -S -m "init"
+git commit -m "init"
 git push origin
 git remote add upstream https://github.com/Stuyk/altv-athena
 git remote set-url --push upstream DISABLE
