@@ -1,7 +1,0 @@
----
-description: Placeholder
----
-
-# Placeholder
-
-##

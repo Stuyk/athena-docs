@@ -4,6 +4,10 @@ description: What is the Athena Roleplay Framework for GTA:V
 
 # 👋 Welcome!
 
+{% hint style="danger" %}
+Old Documentation still has way more information. Click the link in the sidebar for info.
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=k4d51-BjkZ0" %}
 \
 A pre-cursor to understand what the Athena Framework has to offer.
@@ -20,3 +24,11 @@ Originally this framework **was not free** it's because of the people who suppor
 ### Why Use Athena? <a href="#why-use-athena" id="why-use-athena"></a>
 
 The author of Athena has worked on a handful of game modes and been around the block a few times. The author is a full-time blockchain engineer and is a full-stack developer. Which means they are used to deploying services that run well and resist crashing.It also takes less than 60 seconds to setup a full server with all prerequisites installed. Athena is particularly easy to use as it doesn't require any major database configuration (unless you want it to) and is uses one of the most commonly used runtime's today. Which is NodeJS.It is entirely written in TypeScript from front-to-back and you only need to know one language to work on the entire server infrastructure.That being said, Athena is built by industry developers and built for industry developers. If you choose to use Athena you also learn industry skills just by simply playing around with it.
+
+### Join the Community
+
+We are completely active on Discord.&#x20;
+
+If you have any questions make sure you ask them in the designated channels.&#x20;
+
+### [<mark style="color:purple;">**Click to Join**</mark>](https://ares.stuyk.com/v1/get/discord)<mark style="color:purple;">****</mark>

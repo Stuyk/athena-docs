@@ -29,8 +29,8 @@
 ## 🧰 Athena API
 
 * [About API](athena-api/about-api.md)
-* [API Reference](athena-api/api-reference/README.md)
-  * [Placeholder](athena-api/api-reference/placeholder.md)
+* [Server](athena-api/server.md)
+* [Client](athena-api/client.md)
 
 ## ⚙ Plugins
 
