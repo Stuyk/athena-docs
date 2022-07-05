@@ -73,7 +73,7 @@ If you want to check for multiple levels, we can combine ranks again.
 
 ```typescript
 const whatToCheck = PERMISSIONS.ADMIN | PERMISSIONS.MODERATOR;
-if (!Athena.utility.isFlagEnabled(permissionLevel, PERMISSIONS.ADMIN)) {
+if (!Athena.utility.isFlagEnabled(whatToCheck, PERMISSIONS.ADMIN)) {
     console.log('Not admin, or moderator');
 } else {
     console.log('admin or mod!');
