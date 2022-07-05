@@ -33,6 +33,7 @@
   * [utility](athena-api/athena./utility/README.md)
     * [deepCloneObject](athena-api/athena./utility/deepcloneobject.md)
     * [hash](athena-api/athena./utility/hash.md)
+    * [isFlagEnabled](athena-api/athena./utility/isflagenabled.md)
 * [AthenaClient.](athena-api/athenaclient./README.md)
   * [sound](athena-api/athenaclient./sound.md)
 
