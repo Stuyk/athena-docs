@@ -31,6 +31,7 @@
 * [About API](athena-api/about-api.md)
 * [Athena.](athena-api/athena./README.md)
   * [utility](athena-api/athena./utility/README.md)
+    * [deepCloneObject](athena-api/athena./utility/deepcloneobject.md)
     * [hash](athena-api/athena./utility/hash.md)
 * [AthenaClient.](athena-api/athenaclient./README.md)
   * [sound](athena-api/athenaclient./sound.md)
