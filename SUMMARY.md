@@ -29,8 +29,11 @@
 ## 🧰 Athena API
 
 * [About API](athena-api/about-api.md)
-* [Server](athena-api/server.md)
-* [Client](athena-api/client.md)
+* [Athena.](athena-api/athena./README.md)
+  * [utility](athena-api/athena./utility/README.md)
+    * [hash](athena-api/athena./utility/hash.md)
+* [AthenaClient.](athena-api/athenaclient./README.md)
+  * [sound](athena-api/athenaclient./sound.md)
 
 ## ⚙ Plugins
 
