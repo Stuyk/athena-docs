@@ -30,6 +30,13 @@
 
 * [About API](athena-api/about-api.md)
 * [Athena.](athena-api/athena./README.md)
+  * [database](athena-api/athena./database/README.md)
+    * [funcs](athena-api/athena./database/funcs/README.md)
+      * [init](athena-api/athena./database/funcs/init.md)
+      * [createCollection](athena-api/athena./database/funcs/createcollection.md)
+      * [fetchAllByField](athena-api/athena./database/funcs/fetchallbyfield.md)
+      * [fetchAllData](athena-api/athena./database/funcs/fetchalldata.md)
+      * [fetchData](athena-api/athena./database/funcs/fetchdata.md)
   * [webview](athena-api/athena./webview/README.md)
     * [emit](athena-api/athena./webview/emit.md)
   * [utility](athena-api/athena./utility/README.md)
