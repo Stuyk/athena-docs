@@ -89,4 +89,5 @@
     * [Locales](plugins/reference/fuel-station/locales.md)
   * [Garage](plugins/reference/garage/README.md)
     * [Locales](plugins/reference/garage/locales.md)
+  * [Voice](plugins/reference/voice.md)
   * [Discord](plugins/reference/discord.md)
