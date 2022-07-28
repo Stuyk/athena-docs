@@ -45,7 +45,11 @@
     * [isFlagEnabled](athena-api/athena./utility/isflagenabled.md)
     * [vector](athena-api/athena./utility/vector.md)
 * [AthenaClient.](athena-api/athenaclient./README.md)
-  * [sound](athena-api/athenaclient./sound.md)
+  * [utility](athena-api/athenaclient./utility/README.md)
+    * [distance2D](athena-api/athenaclient./utility/distance2d.md)
+    * [distance3D](athena-api/athenaclient./utility/distance3D.md)
+    * [loadAnimation](athena-api/athenaclient./utility/loadAnimation.md)
+    * [loadModel)(athena-api/athenaclient./utility/loadModel.md)
 
 ## ⚙ Plugins
 
