@@ -55,6 +55,21 @@
     * [distance3D](athena-api/athenaclient/utility/distance3D.md)
     * [loadAnimation](athena-api/athenaclient/utility/loadAnimation.md)
     * [loadModel](athena-api/athenaclient/utility/loadModel.md)
+  * [webview](athena-api/athenaclient/webview/README.md)
+    * [ready](athena-api/athenaclient/webview/ready.md)
+    * [emit](athena-api/athenaclient/webview/emit.md)
+    * [open](athena-api/athenaclient/webview/open.md)
+    * [openAsOverlay](athena-api/athenaclient/webview/openasoverlay.md)
+    * [openAsPersistent](athena-api/athenaclient/webview/openaspersistent.md)
+    * [close](athena-api/athenaclient/webview/close.md)
+    * [on](athena-api/athenaclient/webview/on.md)
+    * [focus](athena-api/athenaclient/webview/focus.md)
+    * [unfocus](athena-api/athenaclient/webview/unfocus.md)
+    * [showCursor](athena-api/athenaclient/webview/showcursor.md)
+    * [isAnyMenuOpen](athena-api/athenaclient/webview/isanymenuopen.md)
+    * [showOverlays](athena-api/athenaclient/webview/showoverlays.md)
+
+
 
 
 ## ⚙ Plugins
