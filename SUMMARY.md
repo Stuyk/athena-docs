@@ -49,7 +49,7 @@
     * [distance2D](athena-api/athenaclient./utility/distance2d.md)
     * [distance3D](athena-api/athenaclient./utility/distance3D.md)
     * [loadAnimation](athena-api/athenaclient./utility/loadAnimation.md)
-    * [loadModel)(athena-api/athenaclient./utility/loadModel.md)
+    * [loadModel](athena-api/athenaclient./utility/loadModel.md)
 
 ## ⚙ Plugins
 
