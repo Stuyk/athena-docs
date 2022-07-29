@@ -19,5 +19,5 @@ Returns
 * Promise to return a boolean. True if the player was unbanned, false if not.
 
 ```typescript
-Athena.controllers.admin.unbanPlayer("202685967935471617");
+Athena.controllers.admin.unbanPlayer('202685967935471617');
 ```
