@@ -19,7 +19,7 @@ The garage system allows players to store and withdraw vehicles in preset virtua
 
 📁 `src/core/plugins/core-garage/server/garages/LocationNameHere.ts`
 
-**Additional fuel stations can be added inside of the garages folder.**
+**Additional garages can be added inside of the garages folder.**
 
 📁 `src/core/plugins/core-garage/server/src/garages.ts`
 
