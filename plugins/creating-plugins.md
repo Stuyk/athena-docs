@@ -59,6 +59,9 @@ It consists of several folders inside your main folder.
   └───📁 webview
       │   Example.vue
       │   tsconfig.json
+      └───📁 images
+      │    │ myimage.jpg
+      |    | my-other-image.png
       │
       ├───components
       │       Component1.vue
