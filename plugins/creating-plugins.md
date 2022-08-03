@@ -86,6 +86,8 @@ Rules for Files and Folder(s)
   * WebView: `src/core/plugins/example-plugin/webview`
     * There must be a main `*.vue` file in this folder.
     * Keep all components and additional vue files in subfolders.
+      * Images: `src/core/plugins/example-plugin/webview/images`
+         * Must be `jpg`, `png`, `jpeg`, `gif`, or `webm` 
 * Entry file for a Plugin should be `index.ts`
   * This applies to both `client` and `server`.
 
