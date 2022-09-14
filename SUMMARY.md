@@ -19,6 +19,11 @@
 * [Using VSCode](info/using-vscode.md)
 * [Folder Structure](info/folder-structure.md)
 
+## 📝 How do I?
+
+* [Make a Command](how-do-i/make-a-command.md)
+* [Access a Player by ID](how-do-i/access-a-player-by-id.md)
+
 ## 🛠 Mods
 
 * [About Mods](mods/about-mods.md)
